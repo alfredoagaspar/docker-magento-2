@@ -29,6 +29,7 @@ RUN mkdir -p /etc/nginx/html /var/www/html \
   && chown -R app:app /etc/nginx /var/www /var/cache/nginx /var/run/nginx.pid /sock
 
 EXPOSE 8443
+EXPOSE 8000
 
 USER app:app
 
